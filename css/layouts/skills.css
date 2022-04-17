@@ -1,0 +1,156 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.skills__titleSection {
+    position: relative;
+    font-size: 1.6rem;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.skills__titleSection__title {
+    margin-right: 0.4rem;
+}
+
+.skills__titleSection::after {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    background: var(--grey);
+    top: 45px;
+    left: -60px;
+}
+
+.skills__cardContainer {
+    margin-top: 8rem;
+    display: flex;
+    min-width: 48%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.skills__text {
+    max-width: 420px;
+    margin-right: 4rem;
+}
+
+.skills__text__title {
+    text-decoration: underline;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.skills__rightText {
+    max-width: 420px;
+    margin-left: 4rem;
+    text-align: right;
+}
+
+.skills__text__paragraph {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.skills__card {
+    box-shadow: var(--boxshadow);
+}
+
+.skills__card__img {
+    width: 400px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+.skills__card__bars {
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.skills__bars__container {
+    width: 90%;
+    box-shadow: var(--boxshadow);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.skills__bars__container span {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+}
+
+.skills__bar {
+    height: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: var(--boxshadow);
+    background-color: #00C5F0;
+    margin-bottom: 0.4rem;
+}
+
+.blue-bar {
+    background-color: #00C5F0;
+}
+
+.lightGreen-bar {
+    background-color: #00F0B6;
+}
+
+.green-bar {
+    background-color: #1CC900;
+}
+
+.purple-bar {
+    background-color: #A200CA;
+}
+
+.red-bar {
+    background-color: #BC0000;
+}
+
+.pink-bar {
+    background-color: #F00090;
+}
+
+.brown-bar {
+    background-color: #C97800;
+}
+
+.yellow-bar {
+    background-color: #E9EE00;
+}
+
+@media screen and (max-width : 1000px) {
+    
+    .skills__text {
+        margin: 0 2rem 2rem 2rem;
+    }
+
+    .skills__rightText {
+        margin: 2rem 2rem 0 2rem;
+    }
+
+    .skills__cardContainer {
+        flex-direction: column;
+        margin-top: 6rem;
+    }
+
+    .skills__card__img {
+        width: 300px;
+        height: 200px;
+    }
+}

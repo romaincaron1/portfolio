@@ -1,0 +1,131 @@
+.project {
+    padding: 12rem 2rem 6rem 2rem;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: var(--boxshadow);
+}
+
+.presentation__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentation__header__titleSection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.presentation__titleSection__title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.presentation__header__links {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.presentation__header__links__link {
+    border-radius: 5%;
+    height: 1rem;
+    padding: 0.4rem;
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.presentation__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.presentation__text {
+    text-align: justify;
+    line-height: 1.4rem;
+    margin: 2rem 0;
+}
+
+.presentation__titleSection__image {
+    height: 40px;
+}
+
+.context__title {
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+
+.context__text {
+    margin: 2rem 0;
+    text-align: justify;
+    line-height: 1.4rem;
+}
+
+.objective__title {
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+
+.objective__text {
+    margin: 2rem 0;
+    text-align: justify;
+    line-height: 1.4rem;
+}
+
+.objective__missions {
+    margin-left: 2rem;
+}
+
+.objective__missions_element {
+    margin: 0.4rem 0;
+}
+
+.objective__secondText {
+    margin: 2rem 0 4rem 0;
+    text-align: justify;
+    line-height: 1.4rem;
+}
+
+.end__title {
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+
+.end__text {
+    text-align: justify;
+    line-height: 1.4rem;
+    margin: 2rem 0;
+}
+
+.project__imageSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.project__imageSection__image {
+    border: solid 1px var(--grey);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.project__imageSection__link {
+    display: flex;
+    justify-content: center;
+}
+
+.project__imageSection__image:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
+    box-shadow: var(--boxshadow);
+}
+
+@media screen and (max-width : 1000px) {
+    .presentation__header {
+        flex-direction: column;
+    }
+}

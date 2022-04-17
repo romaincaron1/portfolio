@@ -1,0 +1,19 @@
+/*---------- BASE ----------*/
+@import url("./colors/colors.css");
+@import url("./reset/reset.css");
+@import url("./fonts/fonts.css");
+
+/*---------- LAYOUTS ----------*/
+@import url("./layouts/header.css");
+@import url("./layouts/header.css");
+@import url("./layouts/about.css");
+@import url("./layouts/skills.css");
+@import url("./layouts/projects.css");
+@import url("./layouts/footer.css");
+@import url("./layouts/project-page.css");
+
+body {
+    font-family: var(--main-font);
+    color: var(--grey);
+    position: relative;
+}
